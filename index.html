@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farmix | Download APK</title>
+  <meta name="description" content="Farmix is a smart poultry monitoring system for modern farms. Download the Android APK.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #3b6fcf;
+      --text: #f3f7ff;
+      --muted: #d9e4ff;
+      --accent: #ff9800;
+      --accent-deep: #ff8500;
+      --panel: rgba(32, 70, 148, 0.45);
+      --border: rgba(255, 152, 0, 0.35);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      min-height: 100%;
+      font-family: "Plus Jakarta Sans", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    .hero {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+    }
+
+    .hero-inner {
+      width: min(700px, 100%);
+      text-align: center;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 34px 20px;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 6px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      color: #ffe3bc;
+      font-size: 0.9rem;
+      font-family: "Plus Jakarta Sans", sans-serif;
+      font-weight: 700;
+      margin-bottom: 14px;
+    }
+
+    h1 {
+      margin: 0;
+      font-family: "Rubik Mono One", monospace;
+      font-size: clamp(2.2rem, 7vw, 4.6rem);
+      font-weight: 400;
+      line-height: 1;
+      letter-spacing: 0.02em;
+      color: var(--accent);
+      text-transform: uppercase;
+    }
+
+    .subtitle {
+      margin: 14px auto 24px;
+      max-width: 48ch;
+      color: var(--muted);
+      font-size: clamp(1rem, 2.6vw, 1.15rem);
+      line-height: 1.6;
+    }
+
+    .download-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 54px;
+      min-width: 240px;
+      padding: 0 26px;
+      border-radius: 12px;
+      border: 0;
+      text-decoration: none;
+      background: linear-gradient(135deg, var(--accent), var(--accent-deep));
+      color: #203b7d;
+      font-weight: 700;
+      font-size: 1.05rem;
+      font-family: "Plus Jakarta Sans", sans-serif;
+    }
+
+    .apk-note {
+      margin-top: 10px;
+      font-size: 0.9rem;
+      color: #eef4ff;
+    }
+
+    @media (max-width: 640px) {
+      .hero-inner {
+        padding: 28px 16px;
+      }
+
+      .download-btn {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="badge">FARMIX APP</div>
+      <h1>Farmix</h1>
+      <p class="subtitle">Smart poultry monitoring system for modern farms.</p>
+      <a class="download-btn" href="https://example.com/farmix.apk" download>Download APK</a>
+      <p class="apk-note">Android 8+ required</p>
+    </div>
+  </header>
+</body>
+</html>
